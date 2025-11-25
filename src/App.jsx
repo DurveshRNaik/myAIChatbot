@@ -110,7 +110,7 @@ function App() {
         />
         <div className="col-span-4 dark:bg-zinc-800 bg-teal-200 p-5 pt-3 pb-0">
           <h1 className="text-4xl dark:text-amber-100 text-amber-950 pb-2">
-            Welcome User, Ask me anything
+            Welcome User, What can I help with
           </h1>
           {loader ? (
             <div role="status">
@@ -151,7 +151,7 @@ function App() {
               onKeyDown={isEnter}
               onChange={(event) => setQuestion(event.target.value)}
               className="w-full h-full p-3 outline-none dark:text-white dark:placeholder-amber-50"
-              placeholder="Start your conversation here"
+              placeholder="Start the conversation here"
             />
             <button onClick={startHere}>
               <svg
