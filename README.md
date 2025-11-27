@@ -1,18 +1,80 @@
-# React + Vite
+# My-AI-Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern AI chatbot application built using React JS and Tailwind CSS, inspired by ChatGPT.
+This project demonstrates API integration, clean UI development, component structuring, and state management in React.
 
-Currently, two official plugins are available:
+## Features
+⚡ Real-time AI responses using an API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Modern UI built with Tailwind CSS
 
-## React Compiler
+💬 Smooth chat interface with auto-scroll
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+🧩 Reusable and clean React components
 
-Note: This will impact Vite dev & build performances.
+📱 Fully responsive design for all screens
 
-## Expanding the ESLint configuration
+🔄 Loading states + typing effect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔐 Environment variable support for API keys
+
+🗂 Organized folder structure for scalability
+
+## Tech Stack
+React JS
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+AI API (Gemini API or other provider)
+
+## Folder Structure
+my-chatbot/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── ChatLogs.jsx
+│   │   ├── QnA.jsx
+│   │   ├── Replies.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── index.js
+│── .env
+│── package.json
+│── README.md
+
+
+## Installation
+1️⃣ Clone the repository
+git clone https://github.com/your-username/myAIChatbot.git
+cd my-chatbot
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Add your API key
+
+Create a .env file in the project root:
+
+YOUR_API_KEY=your_api_key_here
+
+4️⃣ Start the app
+npm run dev
+
+Your AI chat tool will be running at:
+👉 http://localhost:5173/
+
+## How It Works
+User enters a prompt
+
+React sends request to AI API
+
+API returns generated text
+
+Message appears in chat interface
+
+Chat scrolls automatically
+
+
