@@ -37,18 +37,15 @@ Before you begin, ensure you have the following installed:
 Follow these steps to set up the project on your local machine:
 
 **1. Clone the repository:**
-
+```bash
 git clone https://github.com/DurveshRNaik/myAIChatbot
 cd my-chatbot
+```
 
 **2. Install dependencies:**
-
-Bash
-
+```bash
 npm install
-# or
-yarn install
-
+```
 **3. Set up the Gemini API Key:**
 
 Obtain your Gemini API Key from Google AI Studio.
@@ -60,16 +57,13 @@ Add your API key in the following format:
 REACT_APP_GEMINI_API_KEY="YOUR_API_KEY_HERE"
 
 **4. Run the application:**
+```bash
+npm run dev
+```
 
-Bash
-
-npm start
-# or
-yarn start
 The application should now be running at http://localhost:5173/
 
 **💡 What You Will Learn (Learning Outcomes)**
-By following this series, you will master the following React and web development concepts:
 
 Structuring a scalable React project.
 
