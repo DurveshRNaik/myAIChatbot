@@ -38,7 +38,6 @@ Follow these steps to set up the project on your local machine:
 
 **1. Clone the repository:**
 
-```bash
 git clone https://github.com/DurveshRNaik/myAIChatbot
 cd my-chatbot
 
@@ -58,7 +57,6 @@ Create a file named .env in the project root.
 
 Add your API key in the following format:
 
-# .env
 REACT_APP_GEMINI_API_KEY="YOUR_API_KEY_HERE"
 
 **4. Run the application:**
